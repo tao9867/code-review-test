@@ -1,2 +1,2 @@
 def get_user(id):
-    return users[id]
+    return users.get(id)
